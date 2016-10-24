@@ -41,6 +41,7 @@ Notice that there are lines of code would have to be duplicated when using if-el
 
 ##Example usage:
 There are two ways to use this python script.
+
 1.  Using the Switch function:
 ```python
 import switch
@@ -61,6 +62,7 @@ for n in range(4):
     Switch(n, case0, case1, case2, case3)
     print("")
 ```
+
 2.  Using the Switcher object:
 ```python
 import switch
