@@ -29,7 +29,7 @@ class Switchable(object):
                     break         # breaks when case.breaker is true.
 
 # function for quick usage
-def switch(variable, *cases):
+def Switch(variable, *cases):
     temp = Switchable(variable)   # unfortunately, putting in the cases tuple as an argument would make temp.cases = ((cases))
     for case in cases:
         temp.add_case(case)
