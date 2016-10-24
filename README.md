@@ -5,9 +5,11 @@ An implementation of switch-case structures in python.
 This git repo contains code that allows you to use switch-case structures into your python code.
 
 ##Why use switch-case?
+
 Why not use if-elif-else statements? 
 
 When you port code like this:
+
 ```
 switch(var) {
     case 1:     x += 5;
@@ -19,7 +21,9 @@ switch(var) {
                 break;
 }
 ```
+
 It world look like this in Python:
+
 ```python
 if var == 0:
     z += 6
@@ -40,9 +44,11 @@ elif var == 4:
 Notice that there are lines of code would have to be duplicated when using if-elif-else statements instead of switch-case statements for this particular case.
 
 ##Example usage:
+
 There are two ways to use this python script.
 
 1.  Using the Switch function:
+
 ```python
 import switch
 
@@ -64,6 +70,7 @@ for n in range(4):
 ```
 
 2.  Using the Switcher object:
+
 ```python
 import switch
 
