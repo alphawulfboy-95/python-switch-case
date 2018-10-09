@@ -4,7 +4,7 @@ An implementation of switch-case structures in python.
 ##
 This git repo contains code that allows you to use switch-case structures into your python code.
 
-##Why use switch-case?
+## Why use switch-case?
 
 Why not use if-elif-else statements? 
 
@@ -43,7 +43,7 @@ elif var == 4:
 
 Notice that there are lines of code would have to be duplicated when using if-elif-else statements instead of switch-case statements for this particular case.
 
-##Example usage:
+## Example usage:
 
 There are two ways to use this python script.
 
